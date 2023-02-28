@@ -1,3 +1,4 @@
+
 const Course = ({ course }) => { 
     const total = course.parts.reduce( (sum, part) => console.log('sum, part', sum, part) || sum + part.exercises, 0)
     console.log(course)
